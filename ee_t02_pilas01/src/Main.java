@@ -8,9 +8,11 @@
  *
  * @author Antonio
  */
+import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
-        Pila miPila = new Pila(6);
-        miPila.push("[{()}]");
+        String texto = JOptionPane.showInputDialog("Ingresa una cadena de agrupadores");
+        Pila miPila = new Pila(4,texto);
+        miPila.comparar();
     }
 }
