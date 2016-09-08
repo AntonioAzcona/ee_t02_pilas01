@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Antonio
+ * @author Azcona Gonález José Antonio
  */
 public class Pila {
     String [] pila;
