@@ -115,7 +115,7 @@ public class Pila {
         if(!estaVacia())
             System.out.println("NO");
         else
-        System.out.println("NO");
+        System.out.println("SI");
     }
     public boolean estaVacia(){
           return tope == -1;
